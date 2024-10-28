@@ -1,14 +1,9 @@
-def sum_numbers(number):  
-    total_sum = 0  
-    current_number = 1  
-      
-    while current_number <= number:  
-        total_sum += current_number     
-        current_number += 1            
-          
-    return total_sum  
+number = int(input("Enter a number: "))   
+sum = 0   
+counter = 1   
   
-if __name__ == "__main__":  
-    number = int(input("Enter a number: "))    
-    result = sum_numbers(number)  
-    print(result)  
+while counter <= number:   
+    sum += counter 
+    counter += 1 
+  
+print("The sum is:", sum) 
