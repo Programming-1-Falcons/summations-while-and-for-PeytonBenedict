@@ -1,9 +1,11 @@
-number = int(input("Enter a number: "))   
-sum = 0   
-counter = 1   
-  
-while counter <= number:   
-    sum += counter 
-    counter += 1 
-  
-print("The sum is:", sum) 
+user_num=int(input())
+
+loopedamount=0
+
+total=0
+
+while loopedamount<=user_num:
+
+        total=total+loopedamount
+        loopedamount = loopedamount+1
+print(total)
