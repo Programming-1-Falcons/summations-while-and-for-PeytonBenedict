@@ -1,7 +1,8 @@
-number = int(input("Enter a number: "))
-sum = 0  
-  
-for i in range(1, number + 1):  
-    sum += i  
-  
-print("The sum is:", sum)  
+user_num= int(input())
+
+total=0
+for i in range(1, user_num+1):
+
+  total = total + i
+
+print(total)
